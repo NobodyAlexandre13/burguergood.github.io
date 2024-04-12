@@ -1,0 +1,543 @@
+@media screen and (max-width: 1024px){
+    .abrir_mobile{
+        display: block;
+    }
+    .abrir_mobile button{
+        font-size: 40px;
+        background-color: transparent;
+        cursor: pointer;
+        border: none;
+    }
+    .menu_mobile{
+        background-color: #ffbb00;
+        width: 70%;
+        position: fixed;
+        border-radius: 10px;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        padding: 30px;
+        transition: all 2s ease;
+    }
+    .fechar_mobile{
+        font-size: 30px;
+        color: red;
+        cursor: pointer;
+    }
+    .menu_mobile ul{
+        margin: 20px;
+    }
+    .menu_mobile ul li{
+        list-style: none;
+        padding: 10px;
+        cursor: pointer;
+        margin-bottom: 20px;
+    }
+    .menu_mobile ul li a{
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+        font-weight: 700;
+    }
+    .home{
+        flex-direction: column;
+    }
+    .menu_header{
+        display: none;
+    }
+    .menu .menu_food{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .flex_contato{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .mapa{
+        width: 85%;
+        height: 250px;
+    }
+
+    @media screen and (max-width: 692px){
+        .flex_foote{
+            flex-direction: column;
+            gap: 20px;
+        }
+        .contato_ba{
+            flex-direction: column;
+            gap: 20px;
+        }
+        .contato_ba div p{
+            padding: 2px;
+            font-size: 18px;
+        }
+        .carrinho{
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            display: none;
+        }
+    }
+    @media screen and (max-width: 480px){
+        /*Contacto*/
+        .form form{
+            width: 370px;
+            margin: 0 auto;
+        }
+        .form form input, textarea{
+            width: 100%;
+            height: 20%;
+        }
+        .form form textarea{
+            width: 100%;
+            height: 40%;
+            font-size: 15px;
+        }
+        .contato_ba div p{
+            padding: 6px;
+            font-size: 18px;
+        }
+        /*Contacto*/
+        .sobre{
+            margin-top: 50px;
+            padding: 10px;
+        }
+        .sobre .titulo{
+            font-size: 28px;
+        }
+        .flex_sobre{
+            flex-direction: column;
+            padding: 1.5rem 5%;
+        }
+        .slide{
+            max-width: 270px;
+            height: 270px;
+            margin: 4% auto;
+        }
+        .slide img{
+            width: 100%;
+        }
+        .texto_sobre{
+            width: 300px;
+            height: 300px;
+            padding: 20px;
+        }
+        .texto_sobre h1{
+            font-size: 25px;
+            margin-bottom: 20px;
+        }
+        .texto_sobre .txt_sobre{
+            font-size: 15px;
+            line-height: 15px;
+            margin-bottom: 20px;
+        }
+        .contato_ba{
+            flex-direction: column;
+            gap: 20px;
+        }
+        .contato_ba div p{
+            padding: 2px;
+            font-size: 18px;
+        }
+    }
+
+    @media screen and (max-width: 1164px){
+        .produtos{
+            max-width: 300px;
+            max-height: 400px;
+            background-color: #1b1b1b;
+            border-radius: 5px;
+        }
+        .img{
+            padding: 40px;
+        }
+        .img img{
+            width: 50%;
+        }
+        .img .tamanho{
+            width: 55%;
+        }
+        .dados{
+            color: white;
+            padding: 20px;
+        }
+        .nome_burgur{
+            font-size: 28px;
+            font-weight: 500;
+            margin-bottom: 5px;
+        }
+        .preco{
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        .descricao{
+            font-size: 18px;
+            font-weight: 300;
+        }
+        .compra button{
+            color: #fff;
+            padding: 5px;
+            width: 40px;
+            height: 40px;
+            margin-top: 5px;
+            font-size: 20px;
+        }
+    }
+}
+@media screen and (max-width: 400px){
+    .abrir_mobile button{
+        font-size: 20px;
+    }
+    /*Estilização mobile do header*/
+    header{
+        padding: 0.3rem 1rem;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        gap: 2px;
+    }
+    .logo h1{
+        font-size: 26px;
+    }
+    .logo img{
+        width: 50px;
+    }
+    .home{
+        padding: 1rem;
+        margin-top: 15px;
+    }
+    .txt_home{
+        max-width: 300px;
+        margin-inline: auto;
+        margin-bottom: 1rem;
+        padding: 0.5rem 1rem;
+        font-size: 1.5rem;
+    }
+    .logo_home h1{
+        font-size: 3.5rem;
+        font-weight: 600;
+        line-height: 3.6rem;
+        margin-bottom: 20px;
+    }
+    .logo_home h1 span{
+        font-size: 2.7rem;
+    }
+    .imagem{
+        width: 300px;
+        height: 250px;
+    }
+    .imagem img{
+        width: 100%;
+        height: 100%;
+    }
+
+    /*Estilização mobile do menu produtos*/
+    .menu h1{
+        font-size: 28px;
+    }
+    .produtos{
+        max-width: 300px;
+        max-height: 400px;
+        background-color: #1b1b1b;
+        border-radius: 5px;
+    }
+    .img{
+        padding: 40px;
+    }
+    .img img{
+        width: 50%;
+    }
+    .img .tamanho{
+        width: 45%;
+    }
+    .dados{
+        color: white;
+        padding: 20px;
+    }
+    .nome_burgur{
+        font-size: 28px;
+        font-weight: 500;
+        margin-bottom: 5px;
+    }
+    .preco{
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 5px;
+    }
+    .descricao{
+        font-size: 18px;
+        font-weight: 300;
+    }
+    .compra button{
+        color: #fff;
+        padding: 5px;
+        width: 40px;
+        height: 40px;
+        margin-top: 5px;
+        font-size: 20px;
+    }
+
+    /*Estilização mobile sobre*/
+    .sobre{
+        margin-top: 50px;
+        padding: 10px;
+    }
+    .sobre .titulo{
+        font-size: 28px;
+    }
+    .flex_sobre{
+        flex-direction: column;
+        padding: 1.5rem 5%;
+    }
+    .slide{
+        max-width: 270px;
+        height: 270px;
+        margin: 4% auto;
+    }
+    .slide img{
+        width: 100%;
+    }
+    .texto_sobre{
+        width: 300px;
+        height: 300px;
+        padding: 20px;
+    }
+    .texto_sobre h1{
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .texto_sobre .txt_sobre{
+        font-size: 15px;
+        line-height: 15px;
+        margin-bottom: 20px;
+    }
+
+    /*Estilização mobile do contacto */
+    .contacto .titulo{
+        font-size: 28px;
+        padding-bottom: 10px;
+    }
+    .form form{
+        width: 350px;
+        margin: 0 auto;
+    }
+    .form form input, textarea{
+        width: 100%;
+        height: 20%;
+    }
+    .form form input:focus{
+        border-color: #ffbb00;
+    }
+    .form form textarea{
+        width: 100%;
+        height: 40%;
+        font-size: 15px;
+    }
+    .contato_ba{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .contato_ba div p{
+        padding: 2px;
+        font-size: 18px;
+    }
+
+    @media screen and (max-width: 300px){
+        /*Header*/
+        header{
+            padding: 0.2rem 1.5rem;
+        }
+        .logo{
+            display: flex;
+            align-items: center;
+            gap: 2px;
+        }
+        .logo h1{
+            font-size: 24px;
+        }
+        .logo img{
+            width: 35px;
+        }
+        .home{
+            padding: 0.6rem;
+            margin-top: 13px;
+        }
+        .txt_home{
+            max-width: 250px;
+            margin-inline: auto;
+            margin-bottom: 0.6rem;
+            padding: 0.3rem 0.4rem;
+            font-size: 1.3rem;
+        }
+        .logo_home h1{
+            font-size: 3rem;
+            font-weight: 600;
+            line-height: 3rem;
+            margin-bottom: 18px;
+        }
+        .logo_home h1 span{
+            font-size: 2.5rem;
+        }
+        .imagem{
+            width: 250px;
+            height: 200px;
+        }
+        .imagem img{
+            width: 100%;
+            height: 100%;
+        }
+        /*menu*/
+        .menu h1{
+            font-size: 26px;
+        }
+        .produtos{
+            max-width: 250px;
+            max-height: 300px;
+            border-radius: 5px;
+        }
+        .img{
+            padding: 10px;
+            background-color: transparent;
+        }
+        .img img{
+            width: 40%;
+        }
+        .img .tamanho{
+            width: 35%;
+        }
+        .dados{
+            padding: 10px;
+        }
+        .nome_burgur{
+            font-size: 20px;
+            font-weight: 500;
+            margin-bottom: 5px;
+        }
+        .preco{
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        .descricao{
+            font-size: 15px;
+            font-weight: 300;
+        }
+        .compra button{
+            color: #fff;
+            padding: 5px;
+            width: 40px;
+            height: 40px;
+            margin-top: 5px;
+            font-size: 20px;
+        }
+        /*Sobre*/
+        .sobre{
+            margin-top: 40px;
+            padding: 5px;
+        }
+        .sobre .titulo{
+            font-size: 26px;
+        }
+        .flex_sobre{
+            flex-direction: column;
+            padding: 1.2rem 4%;
+        }
+        .slide{
+            max-width: 200px;
+            height: 200px;
+            margin: 2% auto;
+        }
+        .slide img{
+            width: 100%;
+        }
+        .texto_sobre{
+            width: 250px;
+            height: 250px;
+            padding: 10px;
+        }
+        .texto_sobre h1{
+            font-size: 20px;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        .texto_sobre .txt_sobre{
+            font-size: 15px;
+            line-height: 15px;
+            margin-bottom: 20px;
+        }
+        .btn{
+            text-align: center;
+        }
+        .btn button{
+            padding: 8px 15px;
+            font-size: 16px;
+        }
+        /*Contacto*/
+        .form form{
+            width: 220px;
+            margin: 0 auto;
+        }
+        .form form input, textarea{
+            width: 100%;
+            height: 20%;
+        }
+        .form form input:focus{
+            border-color: #ffbb00;
+        }
+        .form form textarea{
+            width: 100%;
+            height: 40%;
+            font-size: 12px;
+        }
+        .contato_ba div p{
+            padding: 4px;
+            font-size: 15px;
+        }
+        .aberto_fechado{
+            width: 30px;
+            height: 30px;
+        }
+        /*Footer*/
+
+        footer{
+            padding: 3rem 0  0;
+        }
+        .flex_foote{
+            margin-bottom: 30px;
+            margin: 10px 2rem;
+        }
+        .logo_footer h1{
+            font-size: 20px;
+        }
+        .contatos{
+            padding-bottom: 10px;
+        }
+        .num_email{
+            font-size: 14px;
+        }
+        .logo_footer img{
+            width: 40px;
+        }
+        .redes_sociais{
+            font-size: 30px;
+        }
+        .redes_sociais i a{
+            color: #ffbb00;
+        }
+        .copyrit p{
+            font-size: 14px;
+        }
+        .cart-item{
+            font-size: 14px;
+        }
+        .cart-item .nome_cart{
+            font-weight: 500;
+        }
+    }
+}
